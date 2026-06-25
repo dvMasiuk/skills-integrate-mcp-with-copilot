@@ -21,7 +21,9 @@ A super simple FastAPI application that allows students to view and sign up for 
    python app.py
    ```
 
-3. Open your browser and go to:
+3. The app now persists activity data to `src/activities.json`, so sign-ups and unregister actions survive server restarts.
+
+4. Open your browser and go to:
    - API documentation: http://localhost:8000/docs
    - Alternative documentation: http://localhost:8000/redoc
 
